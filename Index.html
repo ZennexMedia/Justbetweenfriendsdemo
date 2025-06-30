@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Just Between Friends Café</title>
+  <style>
+    /* Reset & base */
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      background: #faf9f6;
+      color: #3a3a3a;
+      line-height: 1.6;
+    }
+    a {
+      color: #6b4c3b;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    header {
+      background: #d3c4b9;
+      padding: 20px 0;
+      text-align: center;
+      font-weight: bold;
+      font-size: 2rem;
+      letter-spacing: 2px;
+      color: #3a3a3a;
+      font-family: 'Brush Script MT', cursive;
+      user-select: none;
+    }
+    main {
+      max-width: 1100px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+    h1, h2 {
+      color: #6b4c3b;
+      font-family: 'Georgia', serif;
+    }
+    .intro {
+      font-size: 1.1rem;
+      margin-bottom: 30px;
+    }
+    .images-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+      margin-bottom: 40px;
+    }
+    .images-grid img {
+      width: 100%;
+      border-radius: 8px;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+      object-fit: cover;
+      aspect-ratio: 4 / 3;
+    }
+    section {
+      margin-bottom: 40px;
+    }
+    footer {
+      background: #d3c4b9;
+      text-align: center;
+      padding: 15px 0;
+      font-size: 0.9rem;
+      color: #3a3a3a;
+    }
+    @media (max-width: 600px) {
+      header {
+        font-size: 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  Just Between Friends Café
+</header>
+
+<main>
+  <section class="intro">
+    <p>Welcome to <strong>Just Between Friends</strong>, your cozy spot in Manchester's Northern Quarter for exceptional coffee and a warm, minimalist atmosphere. We pride ourselves on sourcing meticulously selected beans from London's renowned Assembly roastery to bring you refined espresso and batch brews highlighting the finest origin character and roast precision.</p>
+  </section>
+
+  <section class="images-grid" aria-label="Gallery of Just Between Friends café">
+    <img src="images/exterior-signage.jpg" alt="Exterior signage of Just Between Friends coffee shop in Manchester" />
+    <img src="images/interior-brick-benches.jpg" alt="Minimalist interior with exposed brick and wooden benches at Just Between Friends café" />
+    <img src="images/specialty-coffee-closeup.jpg" alt="Close up of specialty coffee at Just Between Friends" />
+    <img src="images/barista-preparing-coffee.jpg" alt="Barista preparing coffee at Just Between Friends café" />
+  </section>
+
+  <section>
+    <h2>Our Philosophy</h2>
+    <p>At Just Between Friends, we believe in creating a community space where quality coffee and friendly faces meet. Our beans are carefully sourced from Assembly roastery in London, ensuring every cup you enjoy bursts with character and precision. Whether you're a local professional, student, or coffee aficionado, our café is designed to be your home away from home.</p>
+  </section>
+
+  <section>
+    <h2>Visit Us</h2>
+    <p><strong>Location:</strong> 56 Tib Street, Manchester, M4 1LG</p>
+    <p><strong>Opening Hours:</strong> Monday - Saturday: 8am - 5pm | Sunday: 9am - 4pm</p>
+  </section>
+</main>
+
+<footer>
+  &copy; 2025 Just Between Friends Café - Crafted with care for coffee lovers in Manchester
+</footer>
+
+</body>
+</html>
